@@ -16,7 +16,7 @@ namespace S3.Models
             get { return _title; }
             set
             {
-                _title = value;
+                _title =  value;
                 OnPropertyChanged(); // ding! IsDone changed
             }
 
